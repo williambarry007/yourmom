@@ -128,4 +128,3 @@ else
   puts "#{joke}\n\n"
   
 end
-
