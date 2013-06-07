@@ -11,5 +11,5 @@ Guess where she was last night.
 --------------------------------------------------------------------------------
 EOS
   version "yourmom Version #{Yourmom::VERSION}\n"
-  where "My house.\n\n"
+  whereisshe "My house.\n\n"
 end
