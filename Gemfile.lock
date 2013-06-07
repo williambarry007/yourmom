@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gpig (0.0.7)
+    yourmom (0.0.1)
       specific_install
       trollop
 
@@ -17,6 +17,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  gpig!
   specific_install
   trollop
+  yourmom!

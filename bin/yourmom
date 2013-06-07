@@ -10,6 +10,6 @@ Your Mom.
 Guess where she was last night.
 --------------------------------------------------------------------------------
 EOS
-  version "yourmom Version #{Gpig::VERSION}\n"
+  version "yourmom Version #{Yourmom::VERSION}\n"
   where "My house.\n\n"
 end
