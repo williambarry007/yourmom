@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    yourmom (0.0.2)
+    yourmom (0.0.3)
       specific_install
       trollop
 

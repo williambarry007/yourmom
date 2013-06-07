@@ -4,12 +4,23 @@ require 'yourmom/version'
 require 'trollop'
 
 opts = Trollop::options do
+  version "yourmom Version #{Yourmom::VERSION}\n"
   banner <<-EOS
 --------------------------------------------------------------------------------  
 Your Mom.
 Guess where she was last night.
 --------------------------------------------------------------------------------
 EOS
-  version "yourmom Version #{Yourmom::VERSION}\n"
-  whereisshe "My house.\n\n"
+  stop_on ['where']
+end
+
+cmd = ARGV.shift # get the subcommand
+
+case cmd
+when "where", "where-is-she"
+  puts "my house\n"
+when "with-who", "with-whom"
+  puts "me\n"
+else
+  puts "She loves me.\n"
 end
