@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'yourmom/version'
+require 'trollop'
+
+opts = Trollop::options do
+  banner <<-EOS
+--------------------------------------------------------------------------------  
+Your Mom.
+Guess where she was last night.
+--------------------------------------------------------------------------------
+EOS
+  version "yourmom Version #{Gpig::VERSION}\n"
+  where "My house.\n\n"
+end
